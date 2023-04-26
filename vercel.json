@@ -2,9 +2,9 @@
     "version": 2,
     "name": "api-game-handmade",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+       { "src": "app.ts", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/app.js" }
+       { "src": "/(.*)", "dest": "/app.ts" }
     ]
  }
