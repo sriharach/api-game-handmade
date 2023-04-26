@@ -1,4 +1,10 @@
 {
     "version": 2,
-    "rewrites": [{ "source": "/dist/(.*)", "destination": "/dist" }]
+    "name": "api-game-handmade",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
  }
