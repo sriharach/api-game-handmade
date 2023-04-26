@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My init project",
   "scripts": {
-    "start": "node dist/bin/server.js",
+    "start": "node dist/app.js",
     "build": "npx tsc",
     "dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/app.ts"
   },
